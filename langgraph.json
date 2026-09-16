@@ -1,0 +1,11 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "0_graph": "./learngraph/0_langgraph.py:graph",
+    "1_graph": "./learngraph/1_langgraph_dict.py:graph",
+    "2_graph": "./learngraph/2_langgraph_2nodes.py:graph",
+    "3_graph": "./learngraph/3_langgraph_modelcall.py:graph",
+    "4_graph": "./learngraph/4_langgraph_tools.py:graph" 
+ },
+  "env": ".env"
+}
