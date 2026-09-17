@@ -4,7 +4,7 @@ Every script in this repo was written by me, from scratch, while I learned LangG
 
 Getting through these fundamentals solidly gives me real confidence going forward. It tells me I can take on larger systems on my own, and that's exactly the motivation driving what comes next.
 
-This repo is the starting point, not the destination. From here I'm moving into real-time multi-agent systems and full-stack applications built on LangGraph. Progress will continue to be logged here and on [LinkedIn](#) 👀.
+This repo is the starting point, not the destination. From here I'm moving into real-time multi-agent systems and full-stack applications built on LangGraph. Progress will continue to be logged here and on [LinkedIn](https://www.linkedin.com/in/r-thivisha) 👀.
 
 ---
 
