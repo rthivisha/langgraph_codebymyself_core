@@ -23,33 +23,33 @@ This repo is the starting point, not the destination. From here I'm moving into 
 - Covers how nodes and edges connect
 - Covers how execution flows through a graph
 
-![Basic graph](Langsmith-tracing/01-basic-graph.png)
+![Basic graph](images_tracing/01-basic-graph.png)
 
 ### `1_langgraph_dict.py` — Dictionary State
 - LangGraph requires state to be passed as a dictionary — a built-in constraint of the framework, not a design choice
 - Demonstrates state being passed and accessed in that required format
 
-![Dictionary state graph](Langsmith-tracing/02-dictionary-state.png)
+![Dictionary state graph](images_tracing/02-dictionary-state.png)
 
 ### `2_langgraph_2nodes.py` — Multiple Nodes & Branching
 - Introduces multiple nodes and conditional branching
 - Routes to different nodes based on state (here, `City` and `Country` inputs) instead of following a single linear path
 
-![Multi-node branching graph](Langsmith-tracing/03-conditional-routing.png)
+![Multi-node branching graph](images_tracing/03-conditional-routing.png)
 
 ### `3_langgraph_modelcall.py` — LLM Integration
 - Calls an LLM directly from within the graph
 - Routes conditionally between nodes based on the model's output
 - First step toward the graph making decisions rather than just executing them
 
-![LLM call graph](Langsmith-tracing/04-llm-integration..png)
+![LLM call graph](images_tracing/04-llm-integration..png)
 
 ### `4_langgraph_tools.py` — Tools & Human-in-the-Loop
 - Adds tools so the LLM can act on a user's query, not just respond to it
 - Tool calling is not hardcoded — the LLM decides whether a tool is needed based on the query
 - Introduces human-in-the-loop control over the graph's execution
 
-![Tools and human-in-the-loop graph](Langsmith-tracing/05-tool-calling.png)
+![Tools and human-in-the-loop graph](images_tracing/05-tool-calling.png)
 
 ---
 
